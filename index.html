@@ -188,6 +188,34 @@
         padding: 60px 6%;
       }
     }
+    .app-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 22px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.app-gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 18px;
+  border: 1px solid #49315f;
+  box-shadow: 0 8px 25px #00000055;
+}
+
+.gallery-card {
+  background: #171020;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+.gallery-card p {
+  color: #c084fc;
+  margin: 12px 0 5px;
+  font-weight: bold;
+}
   </style>
 </head>
 
@@ -354,6 +382,36 @@
     </div>
   </div>
 </section>
+  
+<section id="app-gallery">
+  <h2>Explore SOUNDORA App</h2>
+  <p class="sub">
+    Take a look inside the SOUNDORA music experience.
+  </p>
+
+  <div class="app-gallery">
+    <div class="gallery-card">
+      <img src="soundora-home.jpg" alt="SOUNDORA home screen">
+      <p>Home Screen</p>
+    </div>
+
+    <div class="gallery-card">
+      <img src="soundora-search.jpg" alt="SOUNDORA music search and categories">
+      <p>Music Discovery</p>
+    </div>
+
+    <div class="gallery-card">
+      <img src="soundora-settings.jpg" alt="SOUNDORA app settings">
+      <p>App Settings</p>
+    </div>
+
+    <div class="gallery-card">
+      <img src="soundora-about.jpg" alt="About SOUNDORA app">
+      <p>About SOUNDORA</p>
+    </div>
+  </div>
+</section>
+
 
 </main>
 
