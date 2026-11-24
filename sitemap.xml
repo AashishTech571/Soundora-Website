@@ -1,7 +1,18 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://aashishtech571.github.io/Soundora-Website/</loc>
+  </url>
+  <url>
+    <loc>https://aashishtech571.github.io/Soundora-Website/privacy-policy.html</loc>
+  </url>
+  <url>
+    <loc>https://aashishtech571.github.io/Soundora-Website/terms.html</loc>
+  </url>
+  <url>
+    <loc>https://aashishtech571.github.io/Soundora-Website/contact.html</loc>
+  </url>
+  <url>
+    <loc>https://aashishtech571.github.io/Soundora-Website/faq.html</loc>
   </url>
 </urlset>
